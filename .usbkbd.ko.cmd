@@ -1,0 +1,1 @@
+cmd_/home/knockcloud/Documents/Guillaume_Marc_Assignment_7/usbkbd.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/knockcloud/Documents/Guillaume_Marc_Assignment_7/usbkbd.ko /home/knockcloud/Documents/Guillaume_Marc_Assignment_7/usbkbd.o /home/knockcloud/Documents/Guillaume_Marc_Assignment_7/usbkbd.mod.o;  true

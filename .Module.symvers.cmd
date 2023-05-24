@@ -1,0 +1,1 @@
+cmd_/home/knockcloud/Documents/Guillaume_Marc_Assignment_7/Module.symvers := sed 's/ko$$/o/' /home/knockcloud/Documents/Guillaume_Marc_Assignment_7/modules.order | scripts/mod/modpost -m -a  -o /home/knockcloud/Documents/Guillaume_Marc_Assignment_7/Module.symvers -e -i Module.symvers   -T -

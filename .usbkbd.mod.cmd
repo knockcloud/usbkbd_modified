@@ -1,0 +1,1 @@
+cmd_/home/knockcloud/Documents/Guillaume_Marc_Assignment_7/usbkbd.mod := printf '%s\n'   usbkbd.o | awk '!x[$$0]++ { print("/home/knockcloud/Documents/Guillaume_Marc_Assignment_7/"$$0) }' > /home/knockcloud/Documents/Guillaume_Marc_Assignment_7/usbkbd.mod

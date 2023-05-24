@@ -1,0 +1,3 @@
+run "make -C /usr/src/linux-headers-$(uname -r) M=$PWD modules"
+then run "sudo insmod usbkbd.ko"
+then run "sudo ./switchDrivers.sh"
